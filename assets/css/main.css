@@ -11,6 +11,7 @@
 @import '../../components/menu/menu.css';
 @import '../../components/content/content.css';
 @import '../../components/page-component/page-components.css';
+@import '../../components/tooltip/tooltip.css';
 
 :root {
     --white: #ffffff;
