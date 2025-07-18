@@ -31,6 +31,11 @@
   line-height: 26px;
   letter-spacing: 0%;
   color: var(--grey-4);
+  transition: all 0.3s ease;
+}
+
+.form-group__input:hover {
+  border-color: var(--purple-2);
 }
 
 .form-group__input::placeholder {
@@ -54,6 +59,10 @@
 
 .form-group_error .form-group__input {
   border-color: var(--red);
+}
+
+.form-group_error .form-group__input:hover {
+  border-color: var(--purple-2);
 }
 
 .form-group__input-wrapper {
