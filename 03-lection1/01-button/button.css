@@ -9,12 +9,17 @@
   line-height: 100%;
   padding: 15px 15px 14px;
   border-radius: 8px;
+  position: relative;
   transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
 .button:disabled {
   opacity: 0.5;
   pointer-events: none;
+}
+
+.button:active {
+  transform: translateY(2px);
 }
 
 .button_primary {
