@@ -16,7 +16,7 @@
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 767px) {
 .header {
   margin: 0;
   padding: 0;

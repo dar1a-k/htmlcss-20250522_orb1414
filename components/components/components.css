@@ -28,11 +28,8 @@
   letter-spacing: 0%;
 }
 
-ul {
-  list-style-type: none;
-}
-
 .components__menu-list {
+  list-style-type: none;
   display: grid;
   justify-content: start;
   gap: 4px;
@@ -40,11 +37,8 @@ ul {
   margin: 0;
 }
 
-a {
-  text-decoration: none;
-}
-
 .components__menu-list-link {
+  text-decoration: none;
   color: var(--black-font);
   font-size: 14px;
   line-height: 22px;
@@ -63,4 +57,3 @@ a {
   background-color: var(--white);
   border-radius: 12px;
 }
-
